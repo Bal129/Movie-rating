@@ -1,0 +1,148 @@
+:root {
+    /* --headerBg: #011b03; */
+    --headerBg: rgb(90, 181, 110);
+    --headerMiddleBg: green;
+    --headerNavBg: rgb(192, 229, 196);
+    --mainBodyBackground: #d0d0d0;
+    --navButton: #9ffaa8;
+    --footerText: #d7eb8b;
+}
+
+header {
+    border-radius: 10pt 10pt 0pt 0pt;
+    margin: 0.5em 0em;
+    background-color: var(--headerBg);
+}
+
+footer {
+    margin: 0.5em 0em;
+    background-color: var(--headerMiddleBg);
+}
+
+body {
+    padding: 0% 20%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+}
+
+.main-body {
+    background-color: var(--mainBodyBackground);
+    font-weight: normal;
+}
+
+.Header_Upper {
+    display: flex;
+    padding: 0.5em;
+    height: 5em;
+}
+
+.privilege input {
+    background-color: green;
+    border: 2pt solid black;
+    color: black;
+    max-height: 40%;
+    min-height: 40%;
+    border-radius: 20pt;
+}
+
+.privilege input:hover {
+    background-color: red;
+    color: white;
+}
+
+.profile {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.main-logo a img {
+    height: 5em;
+    margin-right: 1em;
+}
+
+.button-loginRegister button {
+    background-color: black;
+    color: white;
+    border: 2pt solid black;
+    margin: 0em 0.2em;
+    padding: 0.5em;
+    max-height: 40%;
+    min-height: 40%;
+    border-radius: 20pt;
+}
+
+.button-loginRegister button:hover {
+    background-color: green;
+    color: black;
+}
+
+.Header_Middle {
+    padding: 0.5em;
+    position: relative;
+    height: 1.5em;
+    background-color: var(--headerMiddleBg);
+}
+
+.Header_Middle .Nav_Bar form button {
+    float: left;
+    padding: 0.2em 1.0em;
+    margin-right: 0.5em;
+    background-color: var(--headerNavBg);
+}
+
+.Header_Middle .Nav_Bar form button:hover, .Header_Middle .Search .Search_Button:hover{
+    background-color: var(--headerBg);
+    color: black;
+}
+
+.Header_Middle .Nav_Bar button {
+    background-color: var(--navButton);
+}
+
+.Header_Middle .Search {
+    float: right;
+    overflow: auto;
+}
+
+.Header_Middle .Search .Search_Button {
+    background-color: var(--navButton);
+    margin: 0.2em;
+}
+
+footer {
+    position: relative;
+    margin-top: 0.5em;
+    padding: 0em;
+}
+
+.Footer_Redirect, .Footer_Navigation, .Footer_Copyright {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+    font-size: smaller;  /*ni test nnt set size betul betul guna em tu*/
+    color: var(--footerText);
+}
+
+.Footer_Redirect p {
+    padding: 0em 2em;
+}
+
+.Footer_Redirect p a img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.Footer_Navigation a {
+    padding: 0.5em;
+    color: white;
+}
+
+.Footer_Copyright {
+    text-align: center;
+    padding: 0.75em 0 0.75em 0; 
+    margin-top: 5px;
+}

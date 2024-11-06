@@ -1,0 +1,23 @@
+<?php
+    // check for user id, if yes then have access to comment 
+    // , if not redirect to login
+    // insert comment to database and then update with timestamp, commment, and rating of user, userid, movieid
+    session_start();
+    require_once "dbh.connect.php";
+
+    echo "[ DEBUG GET  ] ".json_encode($_GET);
+    echo "[ DEBUG POST ] ".json_encode($_POST);
+
+    if (isset($_SESSION["username"])) {
+        // Do something if user is logged in
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $update = "DELETE FROM reviews WHERE (reviews.Movies_ID = {$_POST['movie_id']} AND reviews.Users_ID = {$_POST['user_id']})";
+            if (mysqli_query($conn, $update)) {
+                echo "delete successfully";
+            } else {
+                echo "Error deleting: " . mysqli_error($conn);
+            }
+        }
+    }
+    header("location: ../src/movieProfile.php?MOVIES_ID=".$_POST["movie_id"]);
+?>

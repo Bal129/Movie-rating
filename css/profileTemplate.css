@@ -1,0 +1,165 @@
+li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+h4 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: large;
+}
+
+/* Upper Part */
+
+.body-upper, .body-middle, .body-bottom {
+    /* margin: 0.1em; */
+    padding: 0.5em;
+    /* background-color: grey; */
+}
+
+.body-upper h1, .body-upper h3 {
+    margin: 0.2em;
+}
+
+.body-upper h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.body-upper, .body-middle {
+    padding: 1em;
+    background-color: grey;
+}
+
+
+/* Middle Part */
+
+.middle-cover, .middle-rating, .middle-synopsis {
+    height: 20em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.middle-rating-hiss, .middle-rating-your, .middle-synopsis div, .bottom-details, .bottom-review {
+    border-radius: 7px;
+    background-color: white;
+}
+
+.middle-rating-hiss, .middle-rating-your {
+    padding: 0.2em;
+}
+
+.middle-synopsis div, .bottom-details, .bottom-review {
+    border: 3pt solid black;
+}
+
+.middle-cover div, .middle-rating-container, .middle-synopsis div {
+    height: 18em;
+    text-align: center;
+}
+
+.middle-synopsis div p {
+    font-size: medium;
+    padding: 1em;
+    text-align: justify;
+}
+
+.profile-image {
+    border: 3pt solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.middle-cover {
+    width: 25%;
+    float: left;
+}
+
+.middle-rating {
+    width: 20%;
+    float: left;
+}
+
+.middle-rating .middle-rating-container {
+    height: inherit;
+    align-items: center;
+}
+
+.middle-rating-hiss, .middle-rating-your {
+    margin: 1.5em;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.middle-synopsis {
+    width: 55%;
+    float: right;
+}
+
+.middle-genre {
+    height: fit-content;
+    position: relative;
+    margin: 1.5em 0em;
+}
+
+.middle-genre p {
+    /* background-color: white; */
+    color: rgb(229, 229, 229);
+    background-color: grey;
+    border-radius: 5pt;
+    border: 1pt solid white;
+    text-align: center;
+    width: fit-content;
+    display: inline;
+    padding: 0.2em;
+    margin-right: 0.5em;
+}
+
+/* Bottom Part */
+
+.bottom-details {
+    background-color: white;
+    text-align: center;
+    margin: 0.5em 0em;
+}
+
+.bottom-review {
+    background-color: white;
+    text-align: center;
+    margin: 0.5em 0em;
+    padding: 0em 1.0em;
+}
+
+.textfield-comment {
+    margin: 0em 0.2em;
+}
+
+.button-submit {
+    color: white;
+    background-color: rgb(1, 105, 13);
+    border: 2pt solid black;
+    border-radius: 3pt;
+}
+
+.button-submit:hover {
+    color: white;
+    background-color: rgb(53, 186, 68);
+    border: 2pt solid rgb(100, 100, 100);
+    border-radius: 3pt;
+}
+
+.button-delete {
+    color: white;
+    background-color: rgb(178, 11, 11);
+    border: 2pt solid black;
+    border-radius: 3pt;
+}
+
+.button-delete:hover {
+    color: white;
+    background-color: rgb(200, 59, 59);
+    border: 2pt solid rgb(136, 136, 136);
+    border-radius: 3pt;
+}

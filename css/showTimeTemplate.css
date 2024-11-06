@@ -1,0 +1,168 @@
+/* body */
+
+.show-body {
+    height: fit-content;
+    display: flex;
+    vertical-align: middle;
+}
+
+.main-body {
+    background-color: white;
+}
+
+.show-time-main, .show-time-trendings {
+    /* background-color: red; */
+    display: inline-block;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+/* left cinema show time part dates*/
+
+.button-dates {
+    display: inline-block;
+    /* background-color: blue; */
+}
+
+.button-dates button {
+    padding: 0.5em;
+    margin: 0.2em 0em;
+    height: 5em;
+    width: 4em;
+    border-radius: 10pt;
+}
+
+/* left cinema show time part cards */
+
+/* .movie-cover {
+    width: 1em;
+    height: 1em;
+} */
+
+.show-time-main {
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 65%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+.button-dates button {
+    background-color: black;
+    color: white;
+}
+
+.button-dates button:hover {
+    background-color: green;
+    color: black;
+}
+
+.show-time-list {
+    border: 2pt solid black;
+    background-color: white;
+    border-radius: 15pt;
+    padding: 0.5em;
+}
+
+.show-time-movie-cover {
+    width: 10em;
+    margin: auto;
+}
+
+.show-time-movie-cover img {
+    width: 100%;
+    height: 15em;
+    border-radius: 10pt;
+}
+
+.show-time-movie-details {
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.show-time-movie-details h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show-time-movie-details p {
+    padding: 0.5em;
+}
+
+.show-time-movie-details p b {
+    border-radius: 5pt;
+}
+
+.button-page {
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border: 2pt solid black;
+}
+
+.button-page:hover {
+    background-color: green;
+    color: white;
+}
+
+/* right show time part trendings */
+
+.trending-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show-time-trendings {
+    padding: 0.2em;
+    justify-items: center;
+    width: 22%;
+    position: relative;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* margin-left: 5%;  */
+}
+
+.segment_card {
+    border-radius: 5pt;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    background-color: rgb(28, 28, 28);
+}
+
+.movie-cover {
+    justify-self: center;
+    width: inherit;
+    border-radius: 10pt 10pt 0pt 0pt;
+    width: 100%;
+    margin: 0em;
+}
+
+.movie-details {
+    padding: 0.4em;
+    background-color: white;
+    font-size: smaller;
+    border-radius: 0pt 0pt 10pt 10pt;
+}
+
+.movie-details h2 {
+    font-size: medium;
+}
+
+.movie-genres {
+    display: inline-block;
+    margin: 0.1em 0.2em;
+    padding: 0.1em;
+    border-radius: 2pt;
+    background-color: black;
+    color: white;
+}
+
+
+/* .show-trendings-movies a {
+    display: block;
+    height: 5em;
+    margin-bottom: 0.5em;
+} */

@@ -1,0 +1,82 @@
+:root {
+    --grey: #d0d0d0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    padding: 1em;
+}
+
+.row {
+    text-align: center;
+    border: 1pt solid black;
+    width: 20em;
+    background-color: white;
+    margin: auto;
+}
+
+.login-header {
+    justify-content: center;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: #69a56f;
+    border: 1pt solid black;
+    width: 7em;
+}
+
+.login-header h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-weight: normal;
+}
+
+.login-buttons button {
+    display: block;
+}
+
+.btn-login {
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    color: green;
+    font-size: large;
+    border: 2pt solid black;
+    border-radius: 20pt;
+}
+
+.btn-login:hover {
+    background-color: green;
+    color: black;
+}
+
+.btn-signup {
+    color: green;
+    width: 7em;
+    height: 2.5em;
+}
+
+.login-link {
+    margin-bottom: 1em;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-weight: normal;
+    font-size: small;
+    font-style: italic;
+}
+
+.login-link a {
+    color: green;
+}
+
+.form-control {
+    width: 80%;
+    margin-bottom: 1em;
+}
